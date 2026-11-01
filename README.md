@@ -32,3 +32,4 @@ Axes :
 - Cloud, 5G et 6G
 - Zero Trust et cybersécurité
 - Impact sur le métier d’administrateur systèmes et réseaux
+Déploiement GitHub Pages configuré.
