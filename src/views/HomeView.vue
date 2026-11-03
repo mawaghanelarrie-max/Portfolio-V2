@@ -1,6 +1,7 @@
 <script setup>
 import SkillBar from '../components/SkillBar.vue'
 import { skills } from '../data/skills'
+import CertificationsSection from '../components/CertificationsSection.vue'
 </script>
 
 <template>
@@ -57,6 +58,7 @@ import { skills } from '../data/skills'
       </div>
     </div>
   </section>
+  <CertificationsSection />
 
   <section class="section soft">
     <div class="container">
