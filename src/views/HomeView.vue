@@ -1,7 +1,7 @@
 <script setup>
 import SkillBar from '../components/SkillBar.vue'
 import { skills } from '../data/skills'
-import CertificationsSection from '../components/CertificationsSection.vue'
+import CertificationsSection from '../components/certificationsSection.vue'
 </script>
 
 <template>
