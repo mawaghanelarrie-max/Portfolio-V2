@@ -1,19 +1,17 @@
 <script setup>
 const projects = [
   {
-    title: 'Infrastructure systèmes & réseaux',
-    tag: 'SISR',
-    text: 'Mise en place progressive d’une infrastructure avec services réseau, machines virtuelles et administration centralisée.'
-  },
-  {
-    title: 'Supervision Zabbix',
-    tag: 'Supervision',
-    text: 'Suivi des équipements, métriques, déclencheurs et alertes afin de détecter rapidement les anomalies.'
-  },
-  {
-    title: 'Gestion de parc GLPI',
-    tag: 'ITSM',
-    text: 'Inventaire et gestion des équipements avec GLPI et agents de remontée automatique.'
+    title: "Infrastructure réseau d’entreprise",
+    category: "Réseaux & Infrastructure",
+    description:
+      "Conception d’une infrastructure réseau destinée à une organisation d’environ 90 utilisateurs, avec segmentation VLAN, virtualisation et équipements réseau.",
+    technologies: [
+      "Cisco",
+      "VLAN",
+      "Proxmox",
+      "TCP/IP",
+      "Cat6A"
+    ]
   }
 ]
 </script>
@@ -22,22 +20,49 @@ const projects = [
   <section class="page-hero">
     <div class="container">
       <p class="eyebrow">Projets</p>
+
       <h1>Mes réalisations</h1>
+
       <p class="lead">
-        Cette section accueillera les projets avec contexte, architecture,
-        technologies, difficultés, solutions et résultats.
+        Découvrez les projets réalisés durant ma formation en BTS SIO SISR.
       </p>
     </div>
   </section>
 
   <section class="section">
-    <div class="container cards-grid">
-      <article class="project-card" v-for="project in projects" :key="project.title">
-        <span class="tag">{{ project.tag }}</span>
+    <div class="container projects-grid">
+
+      <article
+        v-for="project in projects"
+        :key="project.title"
+        class="project-card"
+      >
+
+        <span class="project-category">
+          {{ project.category }}
+        </span>
+
         <h2>{{ project.title }}</h2>
-        <p>{{ project.text }}</p>
-        <a href="#" @click.prevent>Fiche détaillée bientôt →</a>
+
+        <p>
+          {{ project.description }}
+        </p>
+
+        <div class="project-technologies">
+          <span
+            v-for="technology in project.technologies"
+            :key="technology"
+          >
+            {{ technology }}
+          </span>
+        </div>
+
+        <button class="project-button">
+          Voir le projet →
+        </button>
+
       </article>
+
     </div>
   </section>
 </template>
