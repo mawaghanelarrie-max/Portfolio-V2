@@ -8,7 +8,7 @@ import { skills } from '../data/skills'
     <div class="container hero-grid">
       <div>
         <p class="eyebrow">BTS SIO · Option SISR</p>
-        <h1>Ellarie <span>Alane</span></h1>
+       <h1>Elarrie Alane <span>MAWAGHAN</span></h1>
         <h2>Systèmes, réseaux & infrastructures</h2>
         <p class="hero-text">
           Je développe mes compétences en administration systèmes et réseaux,
