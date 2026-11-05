@@ -305,40 +305,103 @@
 
       <!-- DIFFICULTES -->
 
-      <article class="content-card project-section">
-        <p class="project-number">06</p>
-
-        <div>
-          <h2>Difficultés rencontrées</h2>
-
-          <p>
-            Cette partie présentera les principaux problèmes rencontrés
+      < les principaux problèmes rencontrés
             pendant la configuration de l’infrastructure.
           </p>
 
-          <p class="project-note">
-            Nous compléterons cette section avec les problèmes que tu as
-            réellement rencontrés pendant le projet afin de ne pas inventer
-            de difficultés.
-          </p>
-        </div>
-      </article>
+          <p class="project-note">article class="content-card project-section">
+       <!-- DIFFICULTES -->
+
+<article class="content-card project-section">
+  <p class="project-number">06</p>
+
+  <div>
+    <h2>Difficultés rencontrées</h2>
+
+    <div class="issue-list">
+
+      <div class="issue-card">
+        <h3>Configuration des VLAN</h3>
+
+        <p>
+          La configuration des VLAN nécessite de vérifier que chaque port
+          du switch est associé au bon réseau et que les équipements
+          communiquent uniquement selon l’architecture prévue.
+        </p>
+      </div>
+
+      <div class="issue-card">
+        <h3>Configuration des liens trunk</h3>
+
+        <p>
+          La configuration des trunks demande une attention particulière
+          afin de transporter correctement les VLAN entre les différents
+          équipements réseau.
+        </p>
+      </div>
+
+      <div class="issue-card">
+        <h3>Intégration de Proxmox au réseau</h3>
+
+        <p>
+          L’intégration des serveurs Proxmox nécessite de configurer
+          correctement les interfaces réseau et les réseaux virtuels
+          afin que les machines virtuelles puissent communiquer avec
+          l’infrastructure.
+        </p>
+      </div>
+
+    </div>
+
+    <p class="project-note">
+      Cette section sera ajustée avec les difficultés réellement rencontrées
+      pendant la réalisation du projet.
+    </p>
+  </div>
+</article>
 
 
-      <!-- SOLUTIONS -->
+<!-- SOLUTIONS -->
 
-      <article class="content-card project-section">
-        <p class="project-number">07</p>
+<article class="content-card project-section">
+  <p class="project-number">07</p>
 
-        <div>
-          <h2>Solutions apportées</h2>
+  <div>
+    <h2>Solutions apportées</h2>
 
-          <p>
-            Pour chaque difficulté rencontrée, cette partie expliquera
-            la méthode de diagnostic utilisée et la solution mise en place.
-          </p>
-        </div>
-      </article>
+    <div class="solution-list">
+
+      <div class="solution-card">
+        <h3>Vérification de la configuration VLAN</h3>
+
+        <p>
+          Contrôle de l’affectation des ports et vérification de la
+          configuration des VLAN sur les équipements Cisco.
+        </p>
+      </div>
+
+      <div class="solution-card">
+        <h3>Contrôle des trunks</h3>
+
+        <p>
+          Vérification des VLAN autorisés sur les liens trunk et réalisation
+          de tests de communication entre les différents segments réseau.
+        </p>
+      </div>
+
+      <div class="solution-card">
+        <h3>Tests de connectivité</h3>
+
+        <p>
+          Utilisation de tests réseau pour vérifier l’adressage IP,
+          la communication entre les équipements et l’accès aux services
+          hébergés sur Proxmox.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</article>
 
 
       <!-- RESULTATS -->

@@ -57,9 +57,12 @@ const projects = [
           </span>
         </div>
 
-        <button class="project-button">
-          Voir le projet →
-        </button>
+        <RouterLink
+  to="/projets/infrastructure-reseau"
+  class="project-button"
+>
+  Voir le projet →
+</RouterLink>
 
       </article>
 
