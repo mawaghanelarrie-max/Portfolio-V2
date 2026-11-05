@@ -303,14 +303,7 @@
       </article>
 
 
-      <!-- DIFFICULTES -->
-
-      < les principaux problèmes rencontrés
-            pendant la configuration de l’infrastructure.
-          </p>
-
-          <p class="project-note">article class="content-card project-section">
-       <!-- DIFFICULTES -->
+ <!-- DIFFICULTES -->
 
 <article class="content-card project-section">
   <p class="project-number">06</p>
@@ -357,6 +350,7 @@
       Cette section sera ajustée avec les difficultés réellement rencontrées
       pendant la réalisation du projet.
     </p>
+
   </div>
 </article>
 
