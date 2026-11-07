@@ -303,7 +303,7 @@
       </article>
 
 
- <!-- DIFFICULTES -->
+<!-- DIFFICULTES -->
 
 <article class="content-card project-section">
   <p class="project-number">06</p>
@@ -398,21 +398,51 @@
 </article>
 
 
-      <!-- RESULTATS -->
+     <!-- RESULTATS -->
 
-      <article class="content-card project-section">
-        <p class="project-number">08</p>
+<article class="content-card project-section">
+  <p class="project-number">08</p>
 
-        <div>
-          <h2>Résultats</h2>
+  <div>
+    <h2>Résultats du projet</h2>
 
-          <p>
-            Le projet permet de disposer d’une architecture structurée,
-            segmentée et virtualisée pouvant servir de base à une
-            infrastructure d’entreprise.
-          </p>
-        </div>
-      </article>
+    <p>
+      La conception de l’infrastructure a permis de mettre en place
+      une architecture réseau structurée, segmentée et adaptée aux
+      besoins de l’organisation.
+    </p>
+
+    <div class="results-grid">
+
+      <div class="result-card">
+        <strong>90</strong>
+        <span>Utilisateurs prévus</span>
+      </div>
+
+      <div class="result-card">
+        <strong>2</strong>
+        <span>Serveurs Proxmox</span>
+      </div>
+
+      <div class="result-card">
+        <strong>2</strong>
+        <span>VLAN principaux</span>
+      </div>
+
+      <div class="result-card">
+        <strong>Cat6A</strong>
+        <span>Câblage réseau</span>
+      </div>
+
+    </div>
+
+    <p>
+      La segmentation avec les VLAN permet d’organiser les différents
+      flux du réseau tandis que la virtualisation avec Proxmox permet
+      d’héberger plusieurs services sur une infrastructure centralisée.
+    </p>
+  </div>
+</article>
 
 
       <!-- COMPETENCES -->
