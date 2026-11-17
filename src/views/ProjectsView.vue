@@ -1,17 +1,21 @@
-<script setup>
 const projects = [
   {
-    title: "Infrastructure réseau d’entreprise",
-    category: "Réseaux & Infrastructure",
+    title: "Infrastructure réseau Cisco",
+    category: "Réseaux & Systèmes",
     description:
-      "Conception d’une infrastructure réseau destinée à une organisation d’environ 90 utilisateurs, avec segmentation VLAN, virtualisation et équipements réseau.",
-    technologies: [
-      "Cisco",
-      "VLAN",
-      "Proxmox",
-      "TCP/IP",
-      "Cat6A"
-    ]
+      "Conception et configuration d’une infrastructure réseau segmentée avec équipements Cisco, services Linux et Windows Server.",
+ technologies: [
+  "Cisco",
+  "VLAN",
+  "802.1Q",
+  "Router-on-a-Stick",
+  "DHCP",
+  "NAT",
+  "Linux",
+  "Windows Server",
+  "ADDS",
+  "DNS"
+   ]
   }
 ]
 </script>
