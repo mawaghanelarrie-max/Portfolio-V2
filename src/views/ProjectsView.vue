@@ -1,21 +1,22 @@
+<script setup>
 const projects = [
   {
     title: "Infrastructure réseau Cisco",
     category: "Réseaux & Systèmes",
     description:
       "Conception et configuration d’une infrastructure réseau segmentée avec équipements Cisco, services Linux et Windows Server.",
- technologies: [
-  "Cisco",
-  "VLAN",
-  "802.1Q",
-  "Router-on-a-Stick",
-  "DHCP",
-  "NAT",
-  "Linux",
-  "Windows Server",
-  "ADDS",
-  "DNS"
-   ]
+    technologies: [
+      "Cisco",
+      "VLAN",
+      "802.1Q",
+      "Router-on-a-Stick",
+      "DHCP",
+      "NAT",
+      "Linux",
+      "Windows Server",
+      "ADDS",
+      "DNS"
+    ]
   }
 ]
 </script>
