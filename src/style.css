@@ -834,3 +834,119 @@ nav a:hover::after,
 nav a.router-link-active::after {
   width: 100%;
 }
+/* =========================
+   PRESENTATION PROJETS
+   FORMES UNIQUEMENT
+========================= */
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.project-showcase {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.project-showcase-header {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 24px;
+  padding: 28px 32px 22px;
+}
+
+.project-mission {
+  color: var(--muted);
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.project-category {
+  color: var(--blue-2);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.project-showcase h2 {
+  margin-bottom: 15px;
+  font-size: 1.45rem;
+}
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.project-technologies span {
+  padding: 6px 10px;
+  border-radius: 5px;
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid rgba(96, 165, 250, 0.18);
+  color: #bfdbfe;
+  font-size: 0.75rem;
+}
+
+.project-points {
+  padding: 18px 32px 22px 132px;
+  border-top: 1px solid var(--line);
+}
+
+.project-point {
+  display: flex;
+  gap: 12px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.project-point:last-child {
+  border-bottom: none;
+}
+
+.check-icon {
+  color: var(--blue-2);
+  font-weight: 900;
+}
+
+.project-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 5px 32px 30px 132px;
+}
+
+.project-button,
+.project-pdf-button {
+  min-height: 42px;
+  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.project-pdf-button {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--text);
+}
+
+@media (max-width: 800px) {
+  .project-showcase-header {
+    grid-template-columns: 1fr;
+  }
+
+  .project-points,
+  .project-actions {
+    padding-left: 32px;
+  }
+}
