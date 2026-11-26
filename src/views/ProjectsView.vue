@@ -16,8 +16,19 @@ const projects = [
       "Windows Server",
       "ADDS",
       "DNS"
-    ]
-  }
+],
+
+points: [
+  "Segmentation du réseau avec les VLAN 2 et 3",
+  "Configuration du trunk 802.1Q",
+  "Routage inter-VLAN avec Router-on-a-Stick",
+  "Configuration du DHCP et du NAT/PAT",
+  "Déploiement des services FTP et Samba sous Linux",
+  "Installation d’Active Directory et du DNS sous Windows Server"
+],
+
+route: "/projets/infrastructure-reseau"
+}
 ]
 </script>
 
