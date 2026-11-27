@@ -59,7 +59,8 @@ route: "/projets/infrastructure-reseau"
   ],
 
   route: "/projets/infrastructure-proxmox"
-}
+},
+
 {
   title: "Serveur NAS virtualisé en RAID 0",
   category: "Stockage & Virtualisation",
