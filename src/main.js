@@ -10,6 +10,7 @@ import ProjectsView from './views/ProjectsView.vue'
 import VeilleView from './views/VeilleView.vue'
 import ContactView from './views/ContactView.vue'
 import ProjectNetworkView from './views/ProjectNetworkView.vue'
+import ProjectProxmoxView from './views/ProjectProxmoxView.vue'
 
 const routes = [
   { path: '/', component: HomeView },
@@ -18,9 +19,15 @@ const routes = [
   { path: '/projets', component: ProjectsView },
   { path: '/veille', component: VeilleView },
   { path: '/contact', component: ContactView },
-  {
+  
+ {
   path: '/projets/infrastructure-reseau',
   component: ProjectNetworkView
+},
+
+{
+  path: '/projets/infrastructure-proxmox',
+  component: ProjectProxmoxView
 },
 ]
 

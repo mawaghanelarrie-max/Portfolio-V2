@@ -28,6 +28,37 @@ points: [
 ],
 
 route: "/projets/infrastructure-reseau"
+},
+
+{
+  title: "Infrastructure virtualisée sous Proxmox",
+  category: "Virtualisation & Systèmes",
+
+  description:
+    "Déploiement d’une infrastructure réseau et systèmes entièrement virtualisée sous Proxmox avec OPNsense, services Linux et Windows Server.",
+
+  technologies: [
+    "Proxmox",
+    "OPNsense",
+    "Debian",
+    "Samba",
+    "FTP",
+    "GLPI",
+    "Windows Server",
+    "RDS",
+    "WSL2"
+  ],
+
+  points: [
+    "Déploiement de plusieurs machines virtuelles sous Proxmox",
+    "Configuration d’OPNsense comme pare-feu et routeur",
+    "Mise en place d’un serveur de fichiers Samba",
+    "Installation d’un serveur FTP avec vsftpd",
+    "Déploiement de GLPI avec Apache, MariaDB et PHP",
+    "Configuration de Windows Server avec RDS et WSL2"
+  ],
+
+  route: "/projets/infrastructure-proxmox"
 }
 ]
 </script>
@@ -98,7 +129,6 @@ route: "/projets/infrastructure-reseau"
   </button>
 </div>
       </article>
-
     </div>
   </section>
 </template>
