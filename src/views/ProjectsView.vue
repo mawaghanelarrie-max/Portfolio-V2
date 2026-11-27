@@ -96,16 +96,7 @@ route: "/projets/infrastructure-reseau"
   <button class="project-pdf-button">
     ↓ Compte rendu PDF
   </button>
-
 </div>
-
-        <RouterLink
-  to="/projets/infrastructure-reseau"
-  class="project-button"
->
-  Voir le projet →
-</RouterLink>
-
       </article>
 
     </div>
