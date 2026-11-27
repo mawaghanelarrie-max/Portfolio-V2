@@ -60,6 +60,33 @@ route: "/projets/infrastructure-reseau"
 
   route: "/projets/infrastructure-proxmox"
 }
+{
+  title: "Serveur NAS virtualisé en RAID 0",
+  category: "Stockage & Virtualisation",
+
+  description:
+    "Mise en place d’un serveur NAS virtualisé sous VMware Workstation avec stockage RAID 0 et partage réseau SMB.",
+
+  technologies: [
+    "VMware Workstation",
+    "NAS",
+    "DSM 7.1",
+    "RAID 0",
+    "SMB",
+    "Stockage réseau"
+  ],
+
+  points: [
+    "Création d’une machine virtuelle dédiée au NAS",
+    "Ajout de deux disques virtuels",
+    "Installation et initialisation de DSM 7.1",
+    "Création d’un groupe de stockage en RAID 0",
+    "Mise en place d’un partage réseau SMB",
+    "Validation de l’accès et du fonctionnement du NAS"
+  ],
+
+  route: "/projets/serveur-nas"
+}
 ]
 </script>
 

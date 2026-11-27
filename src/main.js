@@ -11,6 +11,7 @@ import VeilleView from './views/VeilleView.vue'
 import ContactView from './views/ContactView.vue'
 import ProjectNetworkView from './views/ProjectNetworkView.vue'
 import ProjectProxmoxView from './views/ProjectProxmoxView.vue'
+import ProjectNasView from './views/ProjectNasView.vue'
 
 const routes = [
   { path: '/', component: HomeView },
@@ -28,6 +29,10 @@ const routes = [
 {
   path: '/projets/infrastructure-proxmox',
   component: ProjectProxmoxView
+},
+{
+  path: '/projets/serveur-nas',
+  component: ProjectNasView
 },
 ]
 
