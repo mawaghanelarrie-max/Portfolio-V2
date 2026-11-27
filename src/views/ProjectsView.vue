@@ -72,6 +72,32 @@ route: "/projets/infrastructure-reseau"
             {{ technology }}
           </span>
         </div>
+        <div class="project-points">
+
+  <div
+    v-for="point in project.points"
+    :key="point"
+    class="project-point"
+  >
+    <span class="check-icon">✓</span>
+    <span>{{ point }}</span>
+  </div>
+
+</div>
+<div class="project-actions">
+
+  <RouterLink
+    :to="project.route"
+    class="project-button"
+  >
+    Voir le projet →
+  </RouterLink>
+
+  <button class="project-pdf-button">
+    ↓ Compte rendu PDF
+  </button>
+
+</div>
 
         <RouterLink
   to="/projets/infrastructure-reseau"
